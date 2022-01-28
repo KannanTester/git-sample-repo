@@ -4,7 +4,6 @@ import logging
 from base.basepage import BasePage
 from selenium import webdriver
 
-
 class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
